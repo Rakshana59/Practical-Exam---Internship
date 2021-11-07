@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color:darkcyan;
+}
+h5{
+    cursor: pointer;
+    color: darkblue;
+    margin-left: 700px;
+    text-decoration: none;
+}
+.container{
+    max-width: 600px;
+    width: 100%;
+    background-color: rgb(211, 204, 204);
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+.container .title{
+    font-size: 17px;
+    font-weight: bold;
+}
+.container .form{
+    width: 100%;
+}
+.container .form .input-box{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: left;
+}
+.container .form .input-box label{
+    width: 130px;
+    height: 20px;
+    color: black;
+    margin-right: 45px;
+    font-size: 14px;
+}
+.container .form .input-box .input {
+    width: 55%;
+    outline: none;
+}
+.btn{
+    cursor: pointer;
+    display: block;
+    border: 0;
+    width: 25%;
+    color: rgb(246, 247, 248);
+    background-color: rgb(37, 94, 180);
+    font-size: 13px;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+.container-user{
+    max-width: 800px;
+    width: 100%;
+    background-color: rgb(211, 204, 204);
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+.container-user .title{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.btn-create{
+    cursor: pointer;
+    border: 0;
+    color: rgb(246, 247, 248);
+    background-color: rgb(37, 94, 180);
+    font-size: 13px;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+.table{
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.table th{
+    text-align: left;
+    padding: 10px 20px 10px 8px;
+    font-size: 14px;
+    width: 25%;
+}
+.table td{
+    text-align: left;
+    padding: 10px 8px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-view{
+    cursor: pointer;
+    border: 0;
+    color: rgb(246, 247, 248);
+    background-color: rgb(119, 141, 60);
+    font-size: 13px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn-edit{
+    cursor: pointer;
+    border: 0;
+    color: rgb(246, 247, 248);
+    background-color: rgb(26, 109, 105);
+    font-size: 13px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn-delete{
+    cursor: pointer;
+    border: 0;
+    color: rgb(246, 247, 248);
+    background-color: rgb(80, 9, 9);
+    font-size: 13px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.container-view{
+    max-width: 700px;
+    width: 100%;
+    background-color: rgb(211, 204, 204);
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+.container-view .title{
+    font-size: 17px;
+    font-weight: bold;
+}
+.detail{
+    margin-bottom: 15px;
+    display: flex;
+    margin-right: 60px;
+}
+.btn-back{
+    cursor: pointer;
+    display: block;
+    border: 0;
+    width: 20%;
+    color: rgb(246, 247, 248);
+    background-color: rgb(37, 94, 180);
+    font-size: 13px;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
